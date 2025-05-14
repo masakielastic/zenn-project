@@ -29,7 +29,7 @@ cargo install evcxr_repl
 
 **【REPL の比較】Python / Haskell / Rust**
 
-**つむぎ**「ここで、3つの言語の REPL を比べてみましょう。」
+**つるぎ**「ここで、3つの言語の REPL を比べてみましょう。」
 
 |言語   |REPL名|起動方法|特徴|
 | ----- | ---- | ------ | -- |
@@ -41,7 +41,7 @@ cargo install evcxr_repl
 
 **めたん**「Chromebook の Linux ターミナルならタブを使えば簡単だよ。タブを開くには Ctrl + Shift + T。」
 
-**つむぎ**「もしくは tmux を入れれば画面分割もできるよ。」
+**つるぎ**「もしくは tmux を入れれば画面分割もできるよ。」
 
 ```
 sudo apt install tmux
@@ -62,7 +62,7 @@ tmux
 
 **まとめ**
 
-**つむぎ**「まとめると…」
+**つるぎ**「まとめると…」
 
 Rust で REPL を使うなら evcxr
 
@@ -74,5 +74,130 @@ Rust で REPL を使うなら evcxr
 
 **めたん**「それなら Rust に書き換えていくチュートリアルも作ってみようか？」
 
-**つむぎ**「言語横断で学べるって、強いよね。」
+**つるぎ**「言語横断で学べるって、強いよね。」
+
+
+## Python・Haskell でやった課題を Rust に書き換えてみよう！
+
+**課題1：フィボナッチ数列（再帰）**
+
+**ずんだもん**「ぼくが昔やった課題の中で、一番印象に残ってるのはフィボナッチ数列なのだ！」
+
+**めたん**「Python と Haskell の例、それに Rust での実装を比べてみよう。」
+
+
+**Python（再帰）**
+
+```python
+def fib(n):
+    if n <= 1:
+        return n
+    return fib(n-1) + fib(n-2)
+```
+
+**Haskell（再帰）**
+
+```haskell
+fib n
+  | n <= 1    = n
+  | otherwise = fib (n - 1) + fib (n - 2)
+```
+
+**Rust（再帰）**
+
+```rust
+fn fib(n: u32) -> u32 {
+    if n <= 1 {
+        n
+    } else {
+        fib(n - 1) + fib(n - 2)
+    }
+}
+```
+
+**つるぎ**「Rust は型が厳しいから、u32 と型注釈が必須なのがポイントだね。」
+
+**ずんだもん**「なるほどなのだ！」
+
+
+**課題2：FizzBuzz**
+
+**ずんだもん**「次は FizzBuzz！ 3でFizz、5でBuzz、15でFizzBuzzなのだ！」
+
+**Python**
+```python
+for i in range(1, 21):
+    if i % 15 == 0:
+        print("FizzBuzz")
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
+    else:
+        print(i)
+```
+
+**Haskell**
+```haskell
+mapM_ putStrLn [ if i `mod` 15 == 0 then "FizzBuzz"
+                 else if i `mod` 3 == 0 then "Fizz"
+                 else if i `mod` 5 == 0 then "Buzz"
+                 else show i
+               | i <- [1..20] ]
+```
+
+
+**Rust**
+
+```rust
+for i in 1..=20 {
+    if i % 15 == 0 {
+        println!("FizzBuzz");
+    } else if i % 3 == 0 {
+        println!("Fizz");
+    } else if i % 5 == 0 {
+        println!("Buzz");
+    } else {
+        println!("{}", i);
+    }
+}
+```
+
+**めたん**「Rust のループは 1..=20 で for、あとは println! を使うのが基本だね。」
+
+
+## 課題3：階乗（再帰）
+
+**Python**
+```python
+def fact(n):
+    return 1 if n == 0 else n * fact(n - 1)
+```
+
+**Haskell**
+```haskell
+fact 0 = 1
+fact n = n * fact (n - 1)
+```
+
+**Rust**
+```rust
+fn fact(n: u32) -> u32 {
+    if n == 0 {
+        1
+    } else {
+        n * fact(n - 1)
+    }
+}
+```
+
+**ずんだもん**「Rust って思ったより直感的なのだ！」
+
+## まとめ：Rust は型と所有権がキモ！
+
+**つるぎ**「Rust は型注釈と所有権があるから、Haskell の厳密さと Python のわかりやすさの中間的な書き方になるの。」
+
+**めたん**「次は Option<T> や Result<T, E> みたいな型を使ってエラー処理を Python の try / Haskell の Maybe と比較してみるのも面白いかも。」
+
+**ずんだもん**「それ、絶対やりたいのだ！」
 
