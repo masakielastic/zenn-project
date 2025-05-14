@@ -9,3 +9,4 @@ chapters:
   - 03-ownership
   - 04-iterator
   - 05-enum
+  - 06-lifetime
