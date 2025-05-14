@@ -1,0 +1,7 @@
+title: Python、Haskell との比較で学ぶ Rust
+summary: ずんだもんと一緒に、PythonやHaskellの経験を活かしながらRustを楽しく学びます。
+topics: [rust, python, haskell, beginner]
+published: false
+price: 0
+chapters:
+  - 01-repl
