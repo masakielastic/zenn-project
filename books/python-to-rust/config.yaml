@@ -5,3 +5,4 @@ published: false
 price: 0
 chapters:
   - 01-repl
+  - 02-error
