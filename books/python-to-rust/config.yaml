@@ -7,3 +7,4 @@ chapters:
   - 01-repl
   - 02-error
   - 03-ownership
+  - 04-iterator
