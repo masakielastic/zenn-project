@@ -8,3 +8,4 @@ chapters:
   - 02-error
   - 03-ownership
   - 04-iterator
+  - 05-enum
