@@ -11,3 +11,4 @@ chapters:
   - 05-enum
   - 06-lifetime
   - 07-trait
+  - 08-async
