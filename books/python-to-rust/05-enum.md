@@ -111,6 +111,7 @@ let mut iter = vec![1, 2, 3].into_iter();
 while let Some(x) = iter.next() {
     println!("{}", x);
 }
+```
 
 ## まとめ
 
