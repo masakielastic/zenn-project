@@ -3,7 +3,7 @@ title: "第4章：イテレータって関数型？Rust で map・filter・colle
 free: true
 ---
 
-## 【1】Python の map/filter のおさらい
+## Python の map/filter のおさらい
 
 **ずんだもん**「Python で `map` や `filter` はよく使ったのだ！」
 
