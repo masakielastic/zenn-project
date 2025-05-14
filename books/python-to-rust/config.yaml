@@ -10,3 +10,4 @@ chapters:
   - 04-iterator
   - 05-enum
   - 06-lifetime
+  - 07-trait
