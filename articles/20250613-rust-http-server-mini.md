@@ -23,7 +23,7 @@ http_server_min/
 
 ### コード
 ```toml:Cargo.toml
-package]
+[package]
 name = "http_min_auto"
 version = "0.1.0"
 edition = "2024"
