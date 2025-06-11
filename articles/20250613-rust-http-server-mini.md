@@ -38,12 +38,14 @@ anyhow = "1"
 ```
 
 ```rust:main.rs
-use hyper::{Request, Response};
-use hyper::body::Incoming;
+use hyper::{
+  Request, Response,
+  body::Incoming,
+  service::service_fn
+};
 use hyper_util::rt::{TokioExecutor, TokioIo};
 use hyper_util::server::conn::auto::Builder;
 use tokio::net::TcpListener;
-use hyper::service::service_fn;
 use http_body_util::Full;
 use bytes::Bytes;
 
