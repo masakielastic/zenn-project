@@ -37,7 +37,7 @@ bytes = "1"
 anyhow = "1"
 ```
 
-```rs:src/main.rs
+```rust:main.rs
 use hyper::{Request, Response};
 use hyper::body::Incoming;
 use hyper_util::rt::{TokioExecutor, TokioIo};
@@ -109,7 +109,7 @@ anyhow = "1"
 mime_guess = "2"
 ```
 
-```rust:src/main.rs
+```rust:main.rs
 use hyper::{
     Request, Response, StatusCode,
     body::Incoming,
