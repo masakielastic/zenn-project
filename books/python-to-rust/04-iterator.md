@@ -76,12 +76,12 @@ map(lambda x: x * 2, [1, 2, 3])
 
 **Haskell**
 ```haskell
-[1, 2, 3].iter().map(|x| x * 2)
+map (*2) [1,2,3]
 ```
 
 **Rust**
 ```rust
-map (*2) [1,2,3]
+[1, 2, 3].iter().map(|x| x * 2);
 ```
 
 **めたん**「Rust の `|x| x * 2` はクロージャ。Haskell の `(*2)` に似てるよ。」
