@@ -3,7 +3,7 @@ title: "文字とコードポイントを相互変換するコマンドを作成
 emoji: "🔁"
 type: "tech"
 topics: ["bash", "unicode", "python", "rust"]
-published: false
+published: true
 ---
 
 文字とコードポイントを相互変換する処理はシェル芸のよくある題材です。
