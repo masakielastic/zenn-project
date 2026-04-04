@@ -21,12 +21,12 @@ published: false
 price: 0
 chapters:
   - 01-introduction
-  - 02-http2-introduction
+  - 02-what-changed-in-http2
   - 03-connection-stream-frame
   - 04-common-frames
   - 05-communication-patterns
   - 06-reading-logs
   - 07-flow-control-and-hpack
   - 08-grpc-and-http3
-  - 09-review-structure-flow-and-logs
+  - 09-http2-review
   - 10-license
