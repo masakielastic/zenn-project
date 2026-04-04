@@ -10,6 +10,7 @@ topics: ["http2"]
 published: false
 price: 0
 chapters:
+  - introduction
   - 01-http2-introduction
   - 02-connection-stream-frame
   - 03-common-frames
