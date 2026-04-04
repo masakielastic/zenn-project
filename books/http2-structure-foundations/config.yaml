@@ -1,0 +1,19 @@
+title: "HTTP/2入門 ― 構造とログで理解するプロトコル"
+summary: |
+  HTTP/2を「速いHTTP」としてではなく、
+  Connection / Stream / Frame という構造と、
+  ログの観察を通じて理解する入門書です。
+
+  仕様の暗記ではなく、「何をどの単位で見ればよいのか」を軸に、
+  HTTP/2のメンタルモデルを構築します。
+topic: "http2"
+published: false
+price: 0
+chapters:
+  - 01-http2-introduction
+  - 02-connection-stream-frame
+  - 03-common-frames
+  - 04-communication-patterns
+  - 05-reading-logs
+  - 06-flow-control-and-hpack
+  - 07-gateway-to-grpc-and-http3
