@@ -1,5 +1,5 @@
 ---
-title: "gRPC / HTTP/3 への入口"
+title: "gRPC・HTTP/3 への入口"
 ---
 
 ## 1. HTTP/2 を学んだあとに何が見えるか
