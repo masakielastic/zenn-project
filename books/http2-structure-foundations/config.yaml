@@ -29,3 +29,4 @@ chapters:
   - 06-flow-control-and-hpack
   - 07-grpc-and-http3
   - 08-review-structure-flow-and-logs
+  - 09-license
