@@ -35,10 +35,3 @@ https://creativecommons.org/licenses/by/4.0/deed.ja
 以下の形式で表示してください：
 
 "HTTP/2 Introduction: Structure and Foundations" by [Masaki Kagaya] is licensed under CC BY 4.0.
-
----
-
-## 補足
-
-- 本書のコードは別途ライセンス（例：MIT）で提供される場合があります
-- 画像素材については別ライセンスが適用される場合があります
