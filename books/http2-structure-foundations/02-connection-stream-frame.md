@@ -1,4 +1,6 @@
-## 第2章 Connection・Stream・Frame
+---
+title: "第2章 Connection・Stream・Frame"
+---
 
 ### 1. なぜこの3つが紛らわしいのか
 
