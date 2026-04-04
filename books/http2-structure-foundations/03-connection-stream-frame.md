@@ -1,5 +1,5 @@
 ---
-title: "Connection・Stream・Frame"
+title: "Connection・Stream・Frame の関係"
 ---
 
 ## 1. なぜこの3つが紛らわしいのか
