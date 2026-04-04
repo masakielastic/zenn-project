@@ -6,7 +6,7 @@ title: "ライセンス"
 
 ## Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/licenses/by/4.0/deed.ja
 
 ---
 
@@ -34,7 +34,7 @@ https://creativecommons.org/licenses/by/4.0/
 
 以下の形式で表示してください：
 
-"HTTP/2 Introduction: Structure and Foundations" by [著者名] is licensed under CC BY 4.0.
+"HTTP/2 Introduction: Structure and Foundations" by [Masaki Kagaya] is licensed under CC BY 4.0.
 
 ---
 
