@@ -20,13 +20,13 @@ topics: ["http2"]
 published: false
 price: 0
 chapters:
-  - 00-introduction
-  - 01-http2-introduction
-  - 02-connection-stream-frame
-  - 03-common-frames
-  - 04-communication-patterns
-  - 05-reading-logs
-  - 06-flow-control-and-hpack
-  - 07-grpc-and-http3
-  - 08-review-structure-flow-and-logs
-  - 09-license
+  - 01-introduction
+  - 02-http2-introduction
+  - 03-connection-stream-frame
+  - 04-common-frames
+  - 05-communication-patterns
+  - 06-reading-logs
+  - 07-flow-control-and-hpack
+  - 08-grpc-and-http3
+  - 09-review-structure-flow-and-logs
+  - 10-license
