@@ -6,7 +6,7 @@ summary: |
 
   仕様の暗記ではなく、「何をどの単位で見ればよいのか」を軸に、
   HTTP/2のメンタルモデルを構築します。
-topic: "http2"
+topic: ["http2"]
 published: false
 price: 0
 chapters:
