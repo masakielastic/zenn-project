@@ -17,7 +17,7 @@ summary: |
   まずは HTTP/2 を理解するための足場を作り、
   ログを見て通信の流れを言葉で説明できるようになることを重視します。
 topics: ["http2"]
-published: false
+published: true
 price: 0
 chapters:
   - 01-introduction
