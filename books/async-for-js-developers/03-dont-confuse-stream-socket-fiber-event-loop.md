@@ -1,4 +1,6 @@
-# Stream・Socket・Fiber・Event Loop を同じものだと思わない
+---
+title: "Stream・Socket・Fiber・Event Loop を同じものだと思わない"
+---
 
 **初学者**  
 ここから急にややこしくなってきました。  
