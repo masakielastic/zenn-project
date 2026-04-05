@@ -31,4 +31,4 @@ chapters:
   - 09-structured-concurrency-tree
   - 10-one-map-for-browser-node-rust-and-python
   - 11-how-to-read-tokio-and-asyncio-next
-  - 12-review-reconnecting-values-computation-work-and-runtime
+  - 12-review-async-responsibility-map
