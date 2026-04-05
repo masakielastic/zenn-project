@@ -31,6 +31,3 @@ chapters:
   - 09-structured-concurrency-as-a-tree-of-responsibility
   - 10-one-map-for-browser-node-rust-and-python
   - 11-how-to-read-tokio-and-asyncio-next
-  - appendix-a-cast-guide
-  - appendix-b-hypothesis-patterns
-  - appendix-c-responsibility-map-cheatsheet
