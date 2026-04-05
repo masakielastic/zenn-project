@@ -22,7 +22,7 @@ price: 0
 chapters:
   - 01-how-to-read-this-book
   - 02-what-js-users-know-and-misread
-  - 03-dont-confuse-stream-socket-fiber-event-loop
+  - 03-dont-confuse-stream-socket-event-loop
   - 04-what-the-event-loop-is-actually-looping
   - 05-what-a-promise-is-and-isnt
   - 06-future-is-not-just-another-promise
