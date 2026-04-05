@@ -17,7 +17,7 @@ topics:
   - concurrency
   - nodejs
 
-published: false
+published: true
 price: 0
 chapters:
   - 01-how-to-read-this-book
