@@ -1,0 +1,36 @@
+title: "Async for JS Developers ― 責務分解で理解する非同期処理"
+summary: >
+  Promise / await から一歩進み、
+  非同期処理を「責務と実行モデルの地図」として理解するための本です。
+
+  Stream / Socket / Event Loop / Task / Future を分解し、
+  Node.js・ブラウザ・Rust・Python を同じ視点で読めるようにします。
+
+  API の暗記ではなく、
+  「誰が計算を持ち、誰が進め、誰が待ち、誰が責任を持つのか」
+  を見分けられるようになることを目的としています。
+
+topics:
+  - javascript
+  - async
+  - eventloop
+  - concurrency
+  - nodejs
+
+published: false
+price: 0
+chapters:
+  - 01-how-to-read-this-book
+  - 02-what-js-users-know-and-misread
+  - 03-dont-confuse-stream-socket-fiber-event-loop
+  - 04-what-the-event-loop-is-actually-looping
+  - 05-what-a-promise-is-and-isnt
+  - 06-future-is-not-just-another-promise
+  - 07-how-task-runtime-and-event-loop-fit-together
+  - 08-why-working-code-can-still-have-broken-design
+  - 09-structured-concurrency-as-a-tree-of-responsibility
+  - 10-one-map-for-browser-node-rust-and-python
+  - 11-how-to-read-tokio-and-asyncio-next
+  - appendix-a-cast-guide
+  - appendix-b-hypothesis-patterns
+  - appendix-c-responsibility-map-cheatsheet
