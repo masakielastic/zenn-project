@@ -1,5 +1,5 @@
 ---
-title="task・runtime・Event Loop はどこでつながるのか"
+title: "task・runtime・Event Loop はどこでつながるのか"
 ---
 
 **初学者**  
