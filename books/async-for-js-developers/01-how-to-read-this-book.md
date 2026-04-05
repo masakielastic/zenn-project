@@ -22,8 +22,6 @@
 ただし、最初から「これが唯一の正解です」と言い切る本ではありません。  
 この本で重視するのは、非同期処理のAPIを暗記することではなく、**責務を分けて見ること**です。Promise / Future / Task / runtime / Event Loop の違い、さらに Stream / Socket / Fiber / Event Loop を同じ種類のものとして混同しない見方を育てることが本書の狙いです。
 
-writing-guidelines-async-for-js…
-
 ## この章で最初に確認したいこと
 
 **初学者**  
@@ -66,8 +64,6 @@ JavaScript では、これらが一つの書き味に圧縮されがちです。
 その通りです。  
 本書は、非同期処理を **「await の書き方」ではなく「責務と実行モデルの地図」として理解する** ことを目指します。
 
-writing-guidelines-async-for-js…
-
 ## なぜ「わかった気」になりやすいのか
 
 **初学者**  
@@ -95,8 +91,6 @@ JavaScript では自然だったものが、別の言語では名前を分けて
 本書はまさにそこを橋渡しします。  
 JavaScript ユーザーがすでに持っている感覚を否定するのではなく、それを分解して読み替えることで、他言語でも通用する地図に変えていきます。想定読者も、Promise / async / await を使ったことがあり、Event Loop や Stream の理解に自信がない人、そして Rust/Tokio や Python asyncio をこれから学びたい人です。
 
-writing-guidelines-async-for-js…
-
 ## この本の進め方 ― 3つの仮説で読む
 
 **初学者**  
@@ -107,8 +101,6 @@ writing-guidelines-async-for-js…
 あります。  
 この本では、対話を三つの仮説で動かします。  
 最初から完成した答えを出すのではなく、論点を切り、見方を選び、暫定的な結論を修正していく進め方です。これは本書の基本方針です。
-
-writing-guidelines-async-for-js…
 
 ### 整理
 
@@ -135,8 +127,6 @@ writing-guidelines-async-for-js…
 その理解でよいです。  
 本書では、初学者が少し早い答え仮説を出し、解説者が論点仮説を整え、実装者がアプローチ仮説を支える形で進めます。誤解や試行錯誤も、教育的価値がある限りは意図的に残します。
 
-writing-guidelines-async-for-js…
-
 ## なぜ対話形式なのか
 
 **初学者**  
@@ -161,8 +151,6 @@ writing-guidelines-async-for-js…
 だから本書では、誤解を単なるミスとして扱いません。  
 誤解は、どの概念が混線しやすいかを示す手がかりです。  
 そのために登場人物を三役に分けています。初学者は疑問と誤解を出し、解説者は構造を整理し、実装者は現実の挙動や破綻点を補足します。
-
-writing-guidelines-async-for-js…
 
 ## 3人の登場人物は何を担うのか
 
@@ -191,8 +179,6 @@ writing-guidelines-async-for-js…
 実装者が抽象理論の主役にならない。  
 この役割分担が崩れると、対話形式の意味がなくなります。
 
-writing-guidelines-async-for-js…
-
 **初学者**  
 なるほど。  
 読者の頭の中で起きることを、そのまま役割分担にしている感じですね。
@@ -219,8 +205,6 @@ writing-guidelines-async-for-js…
 **解説者**  
 この本の後半では、ブラウザ、Node.js、Rust、Python を同じ責務マップの上に並べます。  
 そのためにも、第1章ではまず「正解」より「分け方」を学ぶ、という読み方に切り替えておく必要があります。構成全体も、その前提で第2章以降に進むよう設計されています。
-
-async-for-js-developers-outline
 
 ### この章の核心
 
