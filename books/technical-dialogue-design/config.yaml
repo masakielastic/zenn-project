@@ -1,0 +1,18 @@
+title: "AI時代の対話型技術書設計"
+summary: "AI支援が前提になった時代に、技術的理解をどのような声で社会に出すかを考える本です。対話形式の技術書を、会話の見た目や読みやすさの演出ではなく、論点設定、企画見直し、媒体選択、役割モデリング、発話機能の設計として捉え直します。完全検証には限界があることを認めつつ、不確かな理解を読者が再検討しやすい形に編集するための考え方を整理します。単体記事・一冊・分冊のどれが自然かという企画判断も含めて、AI時代の技術書設計を見直します。"
+topics:
+  - "ai"
+  - "writing"
+  - "zenn"
+  - "technical-writing"
+  - "dialogue"
+published: true
+price: 0
+chapters:
+  - 01-introduction
+  - 02-ai-era-voices-for-technical-understanding
+  - 03-issue-framing-for-dialogue-books
+  - 04-reframing-when-the-outline-fails
+  - 05-role-modeling-for-dialogue-books
+  - 06-functional-modeling-of-utterances
+  - 07-license
